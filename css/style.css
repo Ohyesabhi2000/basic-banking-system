@@ -1,0 +1,33 @@
+*{margin:0 ;padding: 0;box-sizing: border-box;}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 50vh;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+.bg-image {
+    /* The image used */
+    background-image: url(images/13.jpg);
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
